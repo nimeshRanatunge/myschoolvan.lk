@@ -1,0 +1,583 @@
+
+/* INDEX.HTML*/
+
+/*other Or Overall*/
+
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600;800&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(28, 27, 27);
+  min-width: 300px;
+  margin: 10px;
+}
+header,
+section {
+  overflow-x: hidden;
+  min-width: 300px;
+}
+:root {
+    --Sniglet-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient:  linear-gradient(to bottom, rgb(253, 173, 69), rgb(28, 27, 27), rgb(28, 27, 27), rgb(28, 27, 27));
+    --light-gray: rgba(255, 255, 255, 0.877);
+  }
+  .carousel-inner{
+    border-radius: 30px;
+  }
+
+/* navbar******************************************************************************************************************************************************************/
+#navAsLogo:hover {
+    opacity: 0.7;
+  }
+  #selected a{
+    color: #EEEE;
+  }
+  #navAsLogo img{
+    width: 100px;
+  }
+  header a {
+    font-family: var(--Sniglet-font);
+    font-size: 13.5px;
+    color: rgb(253, 173, 69);
+    letter-spacing: 0.2rem;
+  }
+  header .nav-item:last-child {
+    padding-right: 2em;
+  }
+  
+  header .nav-item {
+    padding: 0.9em;
+  }
+  
+  #navmainLogo img{
+    max-width: 250px;
+  }
+ 
+
+  header .nav-link:hover {
+    color: #EEEE; 
+  }
+  header .secondary{
+    color: rgb(28, 27, 27);
+    font-weight: 900;
+    border-radius: 100px;
+  }
+  
+  header .secondary:hover {
+    color:#EEEE; 
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgb(28, 27, 27);
+    z-index: 9999;
+    transition: all 2s ease;
+  }
+  
+   /*english button*/
+  #langM{
+    margin-left: 30px;
+    display: flexbox; 
+  }
+
+  #lang1 a{
+    color: #EEEE; 
+    border-radius: 30px 0px 0px 30px; 
+    background-color: rgb(253, 173, 69);
+    border-style: solid;
+    border-color:#EEEE;
+    font-size: 16px;
+  }
+  #lang2 a{
+    color: black; 
+    border-radius: 0px 30px 30px 0px; 
+    background-color:  rgb(253, 173, 69);
+    border-style: solid;
+    border-color: rgb(253, 173, 69);
+    padding-right: 25px;
+    font-size: 16px;
+  }
+   #lang2 a:hover {
+    color:#EEEE; 
+    background-color: rgb(253, 173, 69);
+    border-style: solid;
+    border-color: rgb(253, 173, 69);
+  
+  }
+  
+  
+  /*sinhala button*/
+  
+  #lang3{
+    letter-spacing: 0px;
+    padding: 0px; 
+    border-radius: 30px 0px 0px 30px; 
+  }
+  
+  #lang3 a{
+    color: rgb(28, 27, 27); 
+    letter-spacing: 0px;
+  }
+   #lang3 a:hover {
+    color: rgb(253, 173, 69);
+  
+  }
+  #lang4 a{
+    color: rgb(28, 27, 27); 
+    letter-spacing: 0px;
+  }
+  #lang4{
+    padding: 0px 10px 0px 0px;
+    background-color: rgb(253, 173, 69);
+    border-radius: 0px 30px 30px 0px;
+  }
+  
+
+/*main carousel************************************************************************************************************************************************************/
+/*#carMain{
+  min-height: 730px;
+}*/
+header .carousel-item{
+  max-height: 490px;
+}
+
+/*track your kid************************************************************************************************************************************************************/
+#aftMainCar{
+    background: rgb(253, 173, 69); 
+    height: 490px;
+    border-radius: 30px;
+    padding: 50px;
+    border: 0px;
+    font-size: 16px;
+    
+  }
+  #getStBtn{
+    border-style: solid;
+    border-radius: 50px;
+    letter-spacing: 0.3rem; 
+    margin-left: 6rem;
+    margin-right: 6rem;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 25px;
+  }
+  #getStBtnCall{
+    border-style: none;
+    border-radius: 50px;
+    letter-spacing: 1px; 
+    margin-left: 6rem;
+    margin-right: 6rem;
+    padding: 2px;
+  }
+
+
+
+
+/*register here************************************************************************************************************************************************************/
+#specialText{
+    height: 180px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(28, 27, 27); 
+    color:#EEEE;  
+    padding: 1rem;
+  }
+  #specialText p{
+    font-size: 16px;
+  }
+  
+  #specialText a{
+    /*border-style: solid;*/
+    border-radius: 50px;
+    letter-spacing: 0.3rem; 
+    margin-left: 49rem;
+    margin-right: 49rem;
+    margin-top: 1rem;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 13.5px;
+  }
+  header .register{
+    color:rgb(28, 27, 27);
+      font-weight: 900;
+      border-style: solid;
+      border-width: 2px;
+      /*border: solid;*/
+      border-radius: 10px;
+      background-color: rgb(253, 173, 69);
+      text-align: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+      margin-bottom: 30px;
+  }
+  
+  header .register:hover {
+    font-weight: 900;
+    border-radius: 10px;
+    background-color: rgb(28, 27, 27); 
+    color: #EEEE; 
+    border-color: white;
+  }
+
+
+
+
+
+
+/*suraksha maga******************************************************************************************************************************/
+
+.section-1{
+    padding: 15vmin 5vmin 5vmin 5vmin;
+  }
+  
+  .parallax1{
+  /* The image used */
+  background-image: url("../assets/is1.jpg");
+  
+  /* Set a specific height */
+  min-height: 500px; 
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+  #surakshaIntro h1{
+    font-size: 25px;
+  }
+  #surakshaIntro p{
+    font-size: 16px;
+  }
+  /*#surakshaVideo{
+    margin-top: 0px;
+  }*/
+  iframe{
+    width: 650px;
+    min-height: 380px;
+  }
+  #youtubeL{
+    display: none;
+  }
+
+/*all island************************************************************************************************************************************************************/
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#allIsland a{
+    font-family: var(--Snigle-font); 
+    background-color:  rgb(253, 173, 69);
+    font-size: 16px;
+  }
+  
+  #allIsland a:hover{
+    color: #EEEE; 
+  }
+  
+  .section-1 .text-box{ /*public for both suraksha maga and asso*/
+    background-color: rgb(28, 27, 27);
+    border-radius: 30px;
+    padding: 35px;
+    color:#EEEE; 
+    text-align: center;
+  }
+  .section-1 .text-box p{
+    text-align: left;
+    font-size: 16px;
+  }
+  .parallax2{
+    /* The image used */
+    background-image: url("../assets/logoshow.jpg");
+  
+    /* Set a specific height */
+    min-height: 350px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax21{
+    /* The image used */
+    background-image: url("../assets/assolarge.png");
+  
+    /* Set a specific height */
+    min-height: 350px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #allIsland h1{
+    text-align: center;
+    font-size: 25px;
+  }
+
+
+  
+/*what's for************************************************************************************************************************************************************/
+
+.section-x a{
+  font-size: 20px; color: blue; 
+}
+.section-x h1{
+  font-size: 25px;
+}
+.section-x p{
+  font-size: 16px;
+}
+#ximg1{
+  width: 300px; margin-left: 50px;
+}
+#ximg2{
+  width: 250px; margin-left: 150px; margin-top: 50px;
+}
+
+/*stay updated************************************************************************************************************************************************************/
+.purchase>h1{
+    padding-top: 10vmin;
+    padding-bottom: 0.1em;
+    font-family: var(--Lobster);
+    font-size: 25px;
+  }
+  
+
+/*why we are************************************************************************************************************************************************************/
+.parallax4{
+    /* The image used */
+    background-image: url("../assets/VisualsStock_AK61357.jpg");
+  
+    /* Set a specific height */
+    min-height: 300px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .cover .content{
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    padding: 6vmin;
+  }
+  .cover .content>h1{
+    
+    font-size: 25px;
+    color:#EEEE; 
+  }
+  .cover .content>p{
+    font-size: 16px;
+    color:#EEEE; 
+    letter-spacing: 0rem;
+  }
+  .numbers .rect{
+    position: relative;
+    color: #EEEE; 
+    z-index: 1;
+    background: rgb(28, 27, 27);
+    width: 15rem;
+    height: 12rem;
+    padding: 3.5vmin;
+    margin: 1.07rem !important;
+    border-radius: 0.5em;
+    box-shadow: 10px 10px 5px 0px gray;
+    
+  }
+  .numbers .rect i{
+    font-size: 70px;
+    padding-bottom: 20px;
+  }
+
+  .rect h1{
+    color: #EEEE !important;
+  }
+  .numbers{
+    margin-top: -10vmin;
+  }
+  
+  .numbers .rect >h1{
+    font-size: 18px;
+    color: rgb(253, 173, 69);
+    font-family: var(--Snigle-font);
+  }
+  
+  .numbers .rect>p{
+    font-family: var(--Patua);
+  }
+
+
+
+
+
+
+/*mobile platform************************************************************************************************************************************************************/
+.parallax5{
+    /* The image used */
+    background-image: url("../assets/4n.jpg");
+  
+    /* Set a specific height */
+    min-height: 300px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .section-3{
+    max-height: 500px;
+    margin-top: 0vmin;
+  }
+  
+  .section-3 .col-md-12>h1{
+    padding: 2em 0 0.5em 0;
+    color: rgb(28, 27, 27);
+    font-size: 25px;
+  }
+  .section-3 .col-md-12>p{
+    padding: 0 4em;
+    padding-bottom: 2em;
+    color: rgb(28, 27, 27);
+    font-size: 20px;
+  }
+  .section-3 .desktop{
+     background: rgb(28, 27, 27);
+     color:  #EEEE; 
+     display: inline-block;
+     border-radius: 8em;
+     padding: 8px 20px;
+     margin: 1em;
+  }
+  .section-3 .desktop h3{
+    font-size: 25px;
+  }
+  
+  .section-3 .desktop p{
+    font-size: 16px;
+    padding: 5px !important;
+  }
+
+
+
+
+
+/*footer part************************************************************************************************************************************************************/
+.section-footer{
+  background:rgb(253, 173, 69);
+  padding: 3vmin 18vmin;
+  color:  rgb(28, 27, 27);
+}
+.section-footer p>span{
+  color: #EEEE; 
+}
+
+.section-footer .column i{
+  color:  rgb(28, 27, 27);
+  letter-spacing: 0.5rem;
+  padding: 10px;
+}
+.section-footer .column i:hover{
+  color: #EEEE; 
+}
+
+.section-footer .column i + i{
+  padding: 0;
+}
+.section-footer h1{
+  font-size: 28px;
+ }
+ .section-footer p{
+  font-size: 16px;
+ }
+.section-footer .column { 
+  display: flex; 
+  flex-direction: row; 
+} 
+
+.section-footer .column:before, 
+.section-footer .column:after { 
+  content: ""; 
+  flex: 1 1; 
+  border-bottom: 2px solid rgb(28, 27, 27); 
+  margin: auto; 
+} 
+
+
+
+
+
+footer{
+    background:  rgb(28, 27, 27);
+    padding: 3vmin 18vmin;
+    color:rgb(253, 173, 69);
+    font-size: 13.6px;
+    
+ }
+ 
+ footer {
+   color: rgb(240, 240, 240);
+ }
+ 
+ .ftrLnk:hover{
+   color: rgb(253, 173, 69);
+   text-decoration: none;
+ }
+
+ 
+ 
+.ftrLnkY:hover{
+  color: black;
+}
+
+ footer .row{
+  max-height: 250px;
+ }
+
+ #wcs{
+  width: 200px; border: 0px; padding: 0px;
+ }
+ #sm{
+  width: 300px; margin-bottom: 10px;
+ }
+ footer hr{
+  height:0.5px;border-width:0;color:rgb(179, 179, 179);background-color:gray;margin-top: 10px;
+ }
+ footer h1{
+  font-size: 20px;
+ }
+
+ 
+/* AssoForm.HTML*/
+
+.fill{
+  margin: 10px 0px;
+  width: 75%;
+}
+#smDrForm{
+  display: none;
+}
+#lgDrForm{
+  display: flex;
+}
+
+

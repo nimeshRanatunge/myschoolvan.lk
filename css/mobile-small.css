@@ -1,0 +1,589 @@
+@media only screen and (max-width: 1199px) {
+
+  header .nav-item {
+    padding: 0.6em;
+  }
+ 
+  /*track your kid************************************************************************************************************************************************************/
+  #aftMainCar{
+      height: 400px;
+      padding: 20px;
+      margin-top: 20px;
+    }
+    #getStBtn{
+      margin-left: 24rem !important;
+      margin-right: 24rem !important;
+      padding: 20px;
+    }
+    #getStBtnCall{
+      margin-left: 6rem;
+      margin-right: 6rem; 
+    }
+    #brhot{
+      display: none;
+    }
+  
+  /*register here************************************************************************************************************************************************************/
+  #specialText{
+      height: 170px;
+      margin: 10px;
+    }
+    #specialText a{
+      margin-left: 24rem !important;
+      margin-right: 24rem !important;
+      padding: 20px;
+    }
+    header .register{ 
+        margin-bottom: 30px;
+    }
+    /*suraksha maga************************************************************************************************************************************************************/
+
+    .parallax1{
+      min-height: 1100px;
+    }
+    
+
+iframe{
+  min-width: 1000px;
+  min-height: 380px;
+  margin-top: 20px;
+}
+/*all island************************************************************************************************************************************************************/
+
+
+.section-2 .card-group{
+  width: 700px;
+}
+#carouselExampleSlidesOnly{
+  margin: 20px;
+}
+#ximg1{
+  width: 300px; margin-left: 50px;
+}
+#ximg2{
+  width: 250px; margin-left: 50px; margin-top: 50px;
+}
+}
+@media only screen and (max-width: 1143px) {
+  header .nav-item {
+    padding: 0.5em;
+  }
+ 
+  .numbers .rect{
+    width: 12rem !important;
+    height: 11rem !important;
+    padding: 3.5vmin !important;
+    margin: 0.7rem !important;      
+  }
+  .numbers .rect i{
+    font-size: 60px !important;
+    padding-bottom: 10px !important;
+  }
+  .numbers{
+    margin-top: -10vmin;
+  }
+  
+  .numbers .rect >h1{
+    font-size: 20px;
+    font-family: var(--Snigle-font);
+  }
+  
+  .numbers .rect>p{
+    font-family: var(--Patua);
+  }
+}
+@media only screen and (max-width: 1092px) {
+
+
+  header .nav-item {
+    padding: 0.2em;
+    font-size: 1px;
+  }
+  header .nav-item a{
+    font-size: 14px;
+  }
+ 
+  /*track your kid************************************************************************************************************************************************************/
+  #aftMainCar{
+      height: 400px;
+      padding: 20px;
+      margin-top: 20px;
+    }
+    #getStBtn{
+      margin-left: 20rem !important;
+      margin-right: 20rem !important;
+      padding: 20px;
+    }
+    #getStBtnCall{
+      margin-left: 5rem;
+      margin-right: 5rem; 
+    }
+    #brhot{
+      display: none;
+    }
+    
+  /*register here************************************************************************************************************************************************************/
+  #specialText{
+      height: 170px;
+      margin: 10px;
+    }
+    #specialText a{
+      margin-left: 22rem !important;
+      margin-right: 22rem !important;
+      padding: 20px;
+    }
+    header .register{ 
+        margin-bottom: 30px;
+    }
+    /*suraksha maga************************************************************************************************************************************************************/
+
+iframe{
+  min-width: 800px;
+  min-height: 380px;
+}
+/*all island************************************************************************************************************************************************************/
+
+
+.section-2 .card-group{
+  width: 700px;
+}
+#carouselExampleSlidesOnly{
+  margin: 20px;
+}
+#sm{
+  width: 250px !important;
+}
+}
+
+@media only screen and (max-width: 998px){
+  #sm{
+    width: 220px !important;
+  }
+  #getStBtn{
+    margin-left: 17rem !important;
+    margin-right: 17rem !important;
+    padding: 20px;
+  }
+  #specialText a{
+    margin-left: 17rem !important;
+    margin-right: 17rem !important;
+    padding: 20px;
+  }
+  #smDrForm{
+    display: inline;
+  }
+  #lgDrForm{
+    display: none;
+  }
+}
+  @media only screen and (max-width: 991px){
+    #specialText{
+      height: 200px;
+    }
+    header .nav-item a{
+      font-size: 16px;
+    }
+    header a{
+      font-family: var(--Sniglet-font);
+      font-size: 20px;
+      letter-spacing: 0.2rem;
+      text-align: center;
+    }
+ 
+     /*english button*/
+  #langM{
+    margin-top: 30px;
+    display: flexbox; 
+  }
+
+  #lang1 a{
+    color:rgb(28, 27, 27); 
+    border-radius: 0px 0px 0px 0px; 
+    background-color:   rgb(253, 173, 69);
+    border-color: rgb(253, 173, 69);
+    /*margin: 0rem 20rem 0rem 20rem;*/
+  }
+  #lang2 a{
+    color: rgb(253, 173, 69); 
+    border-radius: 0px 0px 0px 0px; 
+    background-color: rgb(28, 27, 27);
+    border-color:  rgb(253, 173, 69);
+    /*margin: 0rem 20rem 0rem 20rem;*/
+  }
+   #lang2 a:hover {
+    color: rgb(253, 173, 69);
+    background-color:rgb(28, 27, 27);
+    border-color: rgb(253, 173, 69);
+  }
+  .navbar-toggler{
+    font-size: 50px;
+  }
+  .nav-link{
+    padding: 10px;
+  }
+  header .nav-item:last-child {
+    padding-right: 0em;
+  }
+  }
+  
+@media only screen and (max-width: 907px){
+  .numbers .rect{
+    width: 10rem !important;
+    height: 9rem !important;
+    padding: 3.5vmin !important;
+    margin: 0.7rem !important;      
+  }
+  .numbers .rect i{
+    font-size: 60px !important;
+    padding-bottom: 10px !important;
+  }
+  .numbers{
+    margin-top: -10vmin;
+  }
+  
+  .numbers .rect >h1{
+    font-size: 15px !important;
+    font-family: var(--Snigle-font);
+  }
+  
+  .numbers .rect>p{
+    font-family: var(--Patua);
+  }
+ 
+  #sm{
+    width: 200px !important;
+  }
+  #getStBtn{
+    margin-left: 16rem !important;
+    margin-right: 16rem !important;
+    padding: 20px;
+  }
+  #specialText a{
+    margin-left: 16rem !important;
+    margin-right: 16rem !important;
+    padding: 20px;
+  }
+  #specialText{
+    height: 190px;
+  }
+  iframe{
+    min-width: 700px;
+    min-height: 380px;
+  }
+}
+
+@media only screen and (max-width: 820px){
+  #sm{
+    width: 180px !important;
+  }
+  #getStBtn{
+    margin-left: 14rem !important;
+    margin-right: 14rem !important;
+    padding: 20px;
+  }
+  #specialText a{
+    margin-left: 14rem !important;
+    margin-right: 14rem !important;
+    padding: 20px;
+  }
+  .numbers .rect{
+    width: 8rem !important;
+    height: 7rem !important;
+    padding: 3.5vmin !important;
+    margin: 0.7rem !important;      
+  }
+  .numbers .rect i{
+    font-size: 40px !important;
+    padding-bottom: 10px !important;
+  }
+  .numbers{
+    margin-top: -10vmin;
+  }
+  
+  .numbers .rect >h1{
+    font-size: 12px !important;
+    font-family: var(--Snigle-font);
+  }
+  .section-2 .card-group{
+    width: 600px;
+  }
+  iframe{
+    min-width: 700px;
+    min-height: 380px;
+  }
+}
+@media only screen and (max-width: 767px){
+  #sm{
+    width: 290px;
+  }
+  #getStBtn{
+    margin-left: 12rem !important;
+    margin-right: 12rem !important;
+    padding: 20px;
+  }
+  #specialText a{
+    margin-left: 12rem !important;
+    margin-right: 12rem !important;
+    padding: 20px;
+  }
+  #ximg1{
+    display: none;
+    
+  }
+  #ximg2{
+    display: none;
+    
+  }
+  .section-x .what{
+    margin-left: 20px;
+  }
+  .section-3 .col-md-6{
+   text-align: center !important;
+  }
+  iframe{
+    min-width: 600px;
+    min-height: 380px;
+  }
+}
+@media only screen and (max-width: 691px){
+  #getStBtn{
+    margin-left: 10rem !important;
+    margin-right: 10rem !important;
+    padding: 20px;
+  }
+  #specialText a{
+    margin-left: 10rem !important;
+    margin-right: 10rem !important;
+    padding: 20px;
+  }
+  iframe{
+    min-width: 600px;
+    min-height: 380px;
+  }
+}
+@media only screen and (max-width: 651px){
+  #specialText{
+  height: 220px;
+  }
+  .numbers .rect{
+    width: 7rem !important;
+    height: 6rem !important;
+    padding: 3.5vmin !important;
+    margin: 0.7rem !important;      
+  }
+  #aftMainCar{
+    height: 420px;
+  }
+  .numbers .rect i{
+    font-size: 30px !important;
+    padding-bottom: 10px !important;
+  }
+  .numbers{
+    margin-top: -10vmin;
+  }
+  
+  .numbers .rect >h1{
+    font-size: 12px !important;
+    font-family: var(--Snigle-font);
+  }
+  iframe{
+    min-width: 550px;
+    min-height: 380px;
+  }
+}
+
+@media only screen and (max-width: 631px){
+  #getStBtn{
+    margin-left: 9rem !important;
+    margin-right: 9rem !important;
+    padding: 20px;
+  }
+  #specialText a{
+    margin-left: 9rem !important;
+    margin-right: 9rem !important;
+    padding: 20px;
+  }
+  #specialText{
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(28, 27, 27); 
+    color: white; 
+    padding: 1rem;
+  }
+  .section-2 .card-group{
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 597px){
+  #getStBtn{
+    margin-left: 7rem !important;
+    margin-right: 7rem !important;
+    padding: 20px;
+  }
+  #specialText a{
+    margin-left: 7rem !important;
+    margin-right: 7rem !important;
+    padding: 20px;
+  }
+  #aftMainCar{
+    height: 480px;
+  }
+  iframe{
+    min-width: 500px;
+    min-height: 380px;
+  }
+  #specialText{
+   height: 220px;
+}
+footer .row{
+  max-height: 450px;
+ }
+
+}
+@media only screen and (max-width: 531px){
+  #getStBtn{
+    margin-left: 5rem !important;
+    margin-right: 5rem !important;
+    padding: 20px;
+  }
+  #specialText a{
+    margin-left: 5rem !important;
+    margin-right: 5rem !important;
+    padding: 20px;
+  }
+  iframe{
+    min-width: 450px;
+    min-height: 380px;
+  }
+}
+@media only screen and (max-width: 504px){
+  #aftMainCar{
+    min-height: 520px;
+  }
+  #specialText{
+    height: 250px;
+  }
+  iframe{
+    min-width: 400px;
+    min-height: 380px;
+  }
+  .section-3 .desktop h3{
+    font-size: 16px;
+  }
+  
+  .section-3 .desktop p{
+    font-size: 16px;
+    padding: 0px !important;
+  }
+
+
+}
+@media only screen and (max-width: 467px){
+  #getStBtn{
+    margin-left: 3rem !important;
+    margin-right: 3rem !important;
+    padding: 20px;
+  }
+  #aftMainCar{
+    height: 460px;
+  }
+  #specialText a{
+    margin-left: 4rem !important;
+    margin-right: 4rem !important;
+    padding: 20px;
+  }
+  #sm{
+    width: 150px; margin-bottom: 10px;
+   }
+   iframe{
+     display: none;
+   }
+   #youtubeL{
+     display: inline;
+   }
+   .parallax1{
+    min-height: 50px;
+  }
+  .section-2 .card-group{
+    width: 400px;
+  }
+  .navbar-toggler{
+    font-size: 30px;
+  }
+  header .navbar-brandsm i{
+    font-size: 50px !important;
+  }
+  #navAsLogo img{
+    width: 70px;
+  }
+}
+@media only screen and (max-width: 433px){
+  #specialText a{
+    margin-left: 3rem !important;
+    margin-right: 3rem !important;
+    padding: 15px;
+  }
+  #sm{
+    width: 5px; margin-bottom: 10px;
+   }
+   .section-3{
+    max-height: 600px;
+  }
+  
+}
+@media only screen and (max-width: 403px){
+  #getStBtn{
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+    padding: 20px;
+  }
+  #aftMainCar{
+    min-height: 560px;
+  }
+}
+@media only screen and (max-width: 391px){
+  #getStBtn{
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+    padding: 20px;
+    font-size: 15px;
+  }
+  #specialText{
+    min-height: 310px;
+  }
+  #aftMainCar{
+    height: 480px;
+    font-size: 16px;
+  }
+  #specialText a{
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+    padding: 15px;
+    font-size: 15px;
+  }
+  .section-2 .card-group{
+    width: 300px;
+  }
+  
+}
+@media only screen and (max-width: 320px){
+  header .carousel-item{
+    max-height: 440px !important;
+  }
+}
+@media only screen and (max-width: 360px){
+  header .carousel-item{
+    max-height: 502px;
+  }
+}
+@media only screen and (max-width: 375px){
+  header .carousel-item{
+    max-height: 530px;
+  }
+}
+@media only screen and (max-width: 414px){
+  header .carousel-item{
+    max-height: 600px;
+  }
+}

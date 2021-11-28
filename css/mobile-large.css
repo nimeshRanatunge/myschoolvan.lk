@@ -1,0 +1,162 @@
+@media only screen and (max-width: 1905px) {
+  #specialText a{
+    margin-left: 45rem;
+    margin-right: 45rem;
+  }
+  iframe{
+    width: 600px;
+    min-height: 380px;
+  }
+}
+@media only screen and (max-width: 1745px) {
+  #specialText a{
+    margin-left: 39rem;
+    margin-right: 39rem;
+  }
+  iframe{
+    width: 550px;
+    min-height: 380px;
+  }
+}
+
+@media only screen and (max-width: 1638px) {
+  #getStBtn{
+       
+    margin-left: 3rem;
+    margin-right: 3rem;
+   
+  }
+  iframe{
+    width: 500px;
+    min-height: 380px;
+  }
+}
+@media only screen and (max-width: 1560px) {
+    #getStBtn{
+       
+        margin-left: 4rem;
+        margin-right: 4rem;
+       
+      }
+      #getStBtnCall{
+        margin-left: 4rem;
+        margin-right: 4rem;
+        padding: 2px;
+      }
+    
+      #specialText a{
+        margin-left: 36rem;
+        margin-right: 36rem;
+      }
+      
+      iframe{
+        width: 500px;
+        min-height: 380px;
+      }
+      .numbers .rect{
+        width: 15rem;
+        height: 12rem;
+        padding: 3.5vmin;
+        margin: 0.1rem ;      
+      }
+      .numbers .rect i{
+        font-size: 80px;
+        padding-bottom: 20px;
+      }
+      .numbers{
+        margin-top: -10vmin;
+      }
+      
+      .numbers .rect >h1{
+        font-size: 20px;
+        font-family: var(--Snigle-font);
+      }
+      
+      .numbers .rect>p{
+        font-family: var(--Patua);
+      }
+    
+      
+}
+@media only screen and (max-width: 1446px) {
+    #getStBtn{
+       
+        margin-left: 3rem;
+        margin-right: 3rem;
+       
+      }
+      #getStBtnCall{ 
+        margin-left: 0rem;
+        margin-right: 0rem;
+        padding: 0px;
+      }
+    
+      #specialText a{
+        margin-left: 32rem;
+        margin-right: 32rem;
+      }
+     
+      iframe{
+        width: 450px;
+        min-height: 380px;
+      }
+}
+@media only screen and (max-width: 1351px) {
+  #getStBtn{
+       
+    margin-left: 2rem;
+    margin-right: 2rem;
+   
+  }
+  #specialText a{
+    margin-left: 30rem;
+    margin-right: 30rem;
+  }
+  iframe{
+    width: 420px;
+    min-height: 380px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  #aftMainCar{
+    padding: 15px;
+  }
+  #getStBtn{
+    border-style: solid;
+    border-radius: 50px;
+    letter-spacing: 0.3rem; 
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 20px;
+  }
+  #getStBtnCall{
+    border-style: none;
+    border-radius: 50px;
+    letter-spacing: 1px; 
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 2px;
+  }
+
+
+    header .navbar-brand {
+       display: none;
+      }
+      header .navbar-brandsm i{
+        font-size: 80px;
+      }
+      header .navbar-brandsm{
+        display: inline;
+      }
+     
+      #specialText a{
+        margin-left: 26rem;
+        margin-right: 26rem;
+      }
+      #sm{
+        width: 270px;
+      }
+      
+}
