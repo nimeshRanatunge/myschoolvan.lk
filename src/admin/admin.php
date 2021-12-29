@@ -13,4 +13,4 @@
 ?>
 <p>welcome to index.php</p>
 
-<a href="./index.php?logout=true">Logout</a>
+<a href="./admin.php?logout=true">Logout</a>
