@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../css/stylesAdm.css">
     <script src="https://kit.fontawesome.com/73fc3f3ec0.js" crossorigin="anonymous"></script>
-    <title>Progrmng knwldge login</title>
+    <title>Admin Login Page</title>
 </head>
 <body>
     
@@ -59,6 +59,9 @@
                 <div class="d-flex justify-content-center">
                     <a href="#">Forgot your password?</a>
                 </div>
+                <div class="d-flex justify-content-center">
+                    <a href="../../src/index.html" class="nav-link" style="font-weight: bold;"> <i class="fas fa-home"></i>Home Page</a>
+                </div>
             </div>
         </div>
     </div>
@@ -96,6 +99,15 @@
                 success: function(data){
                     if($.trim(data)=="1"){
                         setTimeout('window.location.href = "admin.php"', 2000);
+                    }else{
+                        Swal.fire({
+                        title: 'Error!',
+                        text: 'Invalid User name or Password ',
+                        icon: 'error',
+                        confirmButtonText: 'OK',
+                        iconColor: '#c0392b',
+                        confirmButtonColor: '#c0392b'
+                        })
                     }
                 },
                 error: function(data){
