@@ -51,7 +51,7 @@
             </div>
           </div>
           <input type="text" class="form-control fill" id="dri_name" placeholder="Your Name">
-          <input type="text" class="form-control fill" id="regno" placeholder="Registration Number">
+          <input type="text" class="form-control fill" id="regno" placeholder="Association Registration Number">
           <input type="number" class="form-control fill" id="phone" placeholder="Mobile Number">
           <input type="text" class="form-control fill" id="r_address" placeholder="Residential Address">
           <input type="text" class="form-control fill" id="police" placeholder="Nearest Police Station">
@@ -67,6 +67,7 @@
           <textarea class="form-control fill" id="schools" name="schools" style="width:500px; height:150px;"></textarea>
 
           <input type="text" class="form-control fill" id="officername" placeholder="Officer's Name">
+          <input type="text" class="form-control fill" id="user_id" placeholder="user_id" disabled style="display: none;">
 
           <input type="submit" name="create" value="Register" class="btn btn-primary" id="register">
           
@@ -107,6 +108,8 @@
                     var cities = $('#cities').val();
                     var schools = $('#schools').val();
                     var officername = $('#officername').val();
+                    var user_id = $('#user_id').val();
+
 
 
                     e.preventDefault();
@@ -128,7 +131,9 @@
                           starting: starting,
                           cities: cities,
                           schools: schools,
-                          officername: officername},
+                          officername: officername,
+                          user_id: user_id
+                        },
                         success : function(data){
                             Swal.fire({
                             'title' : 'Successful',

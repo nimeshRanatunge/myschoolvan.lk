@@ -18,10 +18,11 @@
         $cities = $_POST['cities'];
         $schools = $_POST['schools'];
         $officername = $_POST['officername'];
+        $user_id = $_POST['user_id'];
 
-        $sql = "INSERT INTO users VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+        $sql = "INSERT INTO users VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
         $stmtinsert = $db->prepare($sql);
-        $result = $stmtinsert->execute([$regdate, $m_association, $association, $dri_name, $regno, $phone, $r_address, $police, $town, $vehregno, $starting, $cities, $schools, $officername]);
+        $result = $stmtinsert->execute([$regdate, $m_association, $association, $dri_name, $regno, $phone, $r_address, $police, $town, $vehregno, $starting, $cities, $schools, $officername,$user_id]);
         if($result){
             echo 'Successfully saved.';
         }else{
