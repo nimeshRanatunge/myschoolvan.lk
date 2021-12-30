@@ -70,6 +70,7 @@ section {
     color: rgb(28, 27, 27);
     font-weight: 900;
     border-radius: 100px;
+    font-family: var(--Sniglet-font);
   }
   
   header .secondary:hover {
@@ -168,7 +169,7 @@ header .carousel-item{
     margin-left: 6rem;
     margin-right: 6rem;
     padding: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-family: var(--Sniglet-font); 
     font-size: 25px;
   }
   #getStBtnCall{
@@ -215,15 +216,14 @@ header .carousel-item{
       /*border: solid;*/
       border-radius: 10px;
       background-color: rgb(253, 173, 69);
-      text-align: center;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+      text-align: center; 
       margin-bottom: 30px;
   }
   
   header .register:hover {
     font-weight: 900;
     border-radius: 10px;
-    background-color: rgb(28, 27, 27); 
+    background-color: rgb(253, 173, 69);
     color: #EEEE; 
     border-color: white;
   }
@@ -473,7 +473,7 @@ header .carousel-item{
   }
   
   .section-3 .desktop p{
-    font-size: 16px;
+    font-size: 14px;
     padding: 5px !important;
   }
 
@@ -543,10 +543,13 @@ footer{
    text-decoration: none;
  }
 
- 
+ .ftrLnkY{
+   font-size: 16px !important;
+   color: blue !important;
+ } 
  
 .ftrLnkY:hover{
-  color: black;
+  color: black !important;
 }
 
  footer .row{
