@@ -223,7 +223,7 @@ header .carousel-item{
   header .register:hover {
     font-weight: 900;
     border-radius: 10px;
-    background-color: rgb(253, 173, 69);
+    background-color: rgb(253, 173, 69) !important;
     color: #EEEE; 
     border-color: white;
   }
@@ -287,6 +287,7 @@ header .carousel-item{
   
   #allIsland a:hover{
     color: #EEEE; 
+    border-color: white;
   }
   
   .section-1 .text-box{ /*public for both suraksha maga and asso*/

@@ -7,7 +7,7 @@ require_once('./config.php');
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    $sql = "SELECT * FROM users WHERE email = ? AND password = ? LIMIT 1";
+    $sql = "SELECT * FROM admins WHERE email = ? AND password = ? LIMIT 1";
     $stmtselect = $db->prepare($sql);
     $result = $stmtselect->execute([$username, $password]);
 
