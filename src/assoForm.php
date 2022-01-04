@@ -23,18 +23,16 @@
 <body style="background-image: url(../assets/main1.jpg); background-repeat: no-repeat; background-size: cover;">
   <header>
     <div class="container p-4" style="background-color: #EEEE; border-radius: 20px;">
-      <div id="smDrForm">
-        <h2 style="text-align: center;">All Island Inter District School Children Transportation Association</h2>
-        <h6 style="text-align: center;">In association with SURAKSHA MAGA</h6>
-      </div>
+      
       <div class="row" id="lgDrForm">
         <div class="col-2 col-sm-2"><img src="../assets/logo1c.jpg" style="width: 150px;" alt=""></div>
         <div class="col-8 col-sm-8" style="text-align: center;"><h2>All Island Inter District School Children Transportation Association</h2>
-          <h6 style="text-align: center;">In association with SURAKSHA MAGA</h6></div>
+          <h6 style="text-align: center;">In association with SURAKSHA MAGA</h6>
+          </div>
         <div class="col-2 col-sm-2"><img src="../assets/logo_asso.jpg" style="width: 150px; border-radius: 100%;" alt=""></div>
       </div>
         <p>Fill the form for register as a new member. </p>
-
+        <h6 style="text-align: center;"><b>Driver's Form</b></h6>
 
 
         <form action="./assoForm.php" method="post">
@@ -60,11 +58,11 @@
           <input type="text" class="form-control fill" id="starting" placeholder="Journry Starting Point">
 
           <label for="cities" style="margin-top: 20px;">City/cities covered</label>
-          <textarea class="form-control fill" id="cities" name="cities" style="width:500px; height:150px;">
+          <textarea class="form-control fill" id="cities" name="cities" style="width: 100%;">
             </textarea>
 
           <label for="schools" style="margin-top: 20px;">School/schools covered</label>
-          <textarea class="form-control fill" id="schools" name="schools" style="width:500px; height:150px;"></textarea>
+          <textarea class="form-control fill" id="schools" name="schools" style="width: 100%;"></textarea>
 
           <input type="text" class="form-control fill" id="officername" placeholder="Officer's Name">
           <input type="text" class="form-control fill" id="user_id" placeholder="user_id" disabled style="display: none;">

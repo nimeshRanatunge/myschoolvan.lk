@@ -60,7 +60,7 @@
                     <a href="#">Forgot your password?</a>
                 </div>
                 <div class="d-flex justify-content-center">
-                    <a href="../../src/index.html" class="nav-link" style="font-weight: bold;"> <i class="fas fa-home"></i>Home Page</a>
+                    <a href="../../index.html" class="nav-link" style="font-weight: bold;"> <i class="fas fa-home"></i>Home Page</a>
                 </div>
             </div>
         </div>
