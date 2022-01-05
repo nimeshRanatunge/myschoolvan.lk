@@ -493,6 +493,10 @@ footer .row{
 
 }
 @media only screen and (max-width: 531px){
+  #contimg {
+    width: 300px; margin-top: 0px !important;
+  }
+
   #getStBtn{
     margin-left: 5rem !important;
     margin-right: 5rem !important;
@@ -605,12 +609,20 @@ footer .row{
 
 
 @media only screen and (max-width: 414px){
+  #contimg {
+    width: 200px; margin-top: 0px !important;
+  }
   header .carousel-item{
     max-height: 600px;
   }
 
   #aftMainCar{
     min-height: 480px;
+  }
+
+  #carmiddle{
+    padding-left: 0px !important;
+    padding-right: 15px !important;
   }
 }
 
@@ -666,7 +678,7 @@ footer .row{
     
   }
   .section-2 .card-group{
-    width: 360px;
+    width: 320px;
   }
   .purchase>h1{
     padding-top: 5vmin;
@@ -685,7 +697,7 @@ footer .row{
 }
 
 @media only screen and (max-width: 345px){
-  .section-2 .card-group{
+  .section-2 .card-group img{
     width: 340px;
   }
 }

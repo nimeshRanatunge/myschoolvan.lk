@@ -529,8 +529,16 @@ header .carousel-item{
   margin: auto; 
 } 
 
+#left_rule{
+  background-color: rgb(253, 173, 69); 
+  width: 10%; 
+  float: left;
+  margin-top: 0px;
+}
 
-
+#contimg {
+  width: 400px; margin-top: 0px !important;
+}
 
 
 footer{
@@ -591,3 +599,10 @@ footer{
 }
 
 
+.huge_heading{
+  font-size: 3rem !important;
+}
+
+.huge_heading2{
+  font-size: 2.6rem !important;
+}
