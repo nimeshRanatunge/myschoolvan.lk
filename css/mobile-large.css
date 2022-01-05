@@ -142,13 +142,28 @@
 
 
     header .navbar-brand {
-       display: none;
+       display: inline;
+       width: 50%;
       }
+
+      #navmainLogo {
+        width: 20%;
+       
+      }
+
       header .navbar-brandsm i{
         font-size: 80px;
       }
       header .navbar-brandsm{
         display: inline;
+      }
+
+      #aidsctanav {
+        display: inline;
+      }
+
+      #navAsLogo {
+        display: none;
       }
      
       #specialText a{

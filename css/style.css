@@ -66,6 +66,8 @@ section {
   header .nav-link:hover {
     color: #EEEE; 
   }
+
+  
   header .secondary{
     color: rgb(28, 27, 27);
     font-weight: 900;
@@ -83,6 +85,10 @@ section {
     background: rgb(28, 27, 27);
     z-index: 9999;
     transition: all 2s ease;
+  }
+
+  #aidsctanav {
+    display: none;
   }
   
    /*english button*/
@@ -558,7 +564,7 @@ footer{
  }
 
  #wcs{
-  width: 200px; border: 0px; padding: 0px;
+  width: 130px; border: 0px; padding: 0px;
  }
  #sm{
   width: 300px; margin-bottom: 10px;
