@@ -606,3 +606,24 @@ footer{
 .huge_heading2{
   font-size: 2.6rem !important;
 }
+
+.vl {
+  border-left: 2px solid rgb(255, 255, 255);
+  border-right: 2px solid rgb(194, 73, 73);
+  height: 120px;
+  width: 0px;
+  
+}
+
+#callus i {
+  float: right;
+}
+#callus h5 {
+  float: right;
+}
+#callus h6 {
+  float: right;
+}
+#callhide1{
+  display: none;
+}

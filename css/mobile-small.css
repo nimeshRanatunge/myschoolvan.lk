@@ -492,6 +492,32 @@ footer .row{
  }
 
 }
+
+
+@media only screen and (max-width: 575px){
+  #callus i {
+    float: left;
+  }
+  #callus h5 {
+    float: left;
+  }
+  #callus h6 {
+    float: left;
+  }
+  #callhide1{
+    display: inline;
+  }
+  #callhide2{
+    display: none;
+  }
+  #callhide3{
+    display: none;
+  }
+}
+
+
+
+
 @media only screen and (max-width: 531px){
   #contimg {
     width: 300px; margin-top: 0px !important;
